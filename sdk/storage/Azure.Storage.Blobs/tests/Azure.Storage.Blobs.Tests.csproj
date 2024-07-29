@@ -30,4 +30,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> 
     </Content>
   </ItemGroup>
+    <ItemGroup>
+      <Compile Remove="LargeBlobTests.cs" />
+    </ItemGroup>
 </Project>

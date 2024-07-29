@@ -13,11 +13,11 @@ namespace Azure.ResourceManager.TestFramework
     {
         public MockTestEnvironment() : base()
         {
-            Environment.SetEnvironmentVariable("SUBSCRIPTION_ID", "00000000-0000-0000-0000-000000000000");
+            Environment.SetEnvironmentVariable("SUBSCRIPTION_ID", "00000000-0000-0000-0000-000000000000"); // MODIFY Change this
             Environment.SetEnvironmentVariable("RESOURCE_MANAGER_URL", MockEndPoint);
         }
 
-        public static string MockEndPoint = $"https://localhost:8443";
+        public static string MockEndPoint = $"https://localhost:7070"; // MODIFY Change this
 
         private TokenCredential _mockCredential;
 

@@ -38,7 +38,7 @@ namespace Azure.Storage.Test.Shared
         protected string SecondaryStorageTenantSecondaryHost() =>
             new Uri(Tenants.TestConfigSecondary.BlobServiceSecondaryEndpoint).Host;
 
-        public BlobTestBase(bool async, BlobClientOptions.ServiceVersion serviceVersion, RecordedTestMode? mode = null)
+        public BlobTestBase(bool async, BlobClientOptions.ServiceVersion serviceVersion, RecordedTestMode? mode = RecordedTestMode.Live)
             : base(async, mode)
         {
             _serviceVersion = serviceVersion;

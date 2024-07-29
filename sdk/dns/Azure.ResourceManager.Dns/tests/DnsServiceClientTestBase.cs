@@ -15,7 +15,7 @@ using Azure.Identity;
 
 namespace Azure.ResourceManager.Dns.Tests
 {
-    public abstract class DnsServiceClientTestBase : ManagementRecordedTestBase<DnsManagementTestEnvironment>
+    public abstract class DnsServiceClientTestBase : ManagementRecordedTestBase<MockTestEnvironment>
     {
         protected ArmClient Client { get; private set; }
         protected AzureLocation DefaultLocation = AzureLocation.EastUS;

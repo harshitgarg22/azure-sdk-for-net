@@ -13,7 +13,6 @@ public class AzuriteNUnitFixture
 {
     public static AzuriteFixture Instance { get; private set; }
 
-    [OneTimeSetUp]
     public void SetUp()
     {
         Instance = InitializeAzuriteWithRetry(2);
