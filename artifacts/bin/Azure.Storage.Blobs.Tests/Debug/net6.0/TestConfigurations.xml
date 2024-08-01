@@ -37,7 +37,7 @@
             <TenantName>SecondaryTenant</TenantName>
             <TenantType>Cloud</TenantType>
             <AccountName>RAGRS-ACCOUNT</AccountName>
-            <AccountKey>RAGRS-ACCOUNT-KEY</AccountKey>
+            <AccountKey>Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==</AccountKey>
             <BlobServiceEndpoint>https://localhost:7070</BlobServiceEndpoint>
             <QueueServiceEndpoint>https://localhost:7070</QueueServiceEndpoint>
             <TableServiceEndpoint>https://localhost:7070</TableServiceEndpoint>
@@ -54,7 +54,7 @@
             <TenantName>OAuthTenant</TenantName>
             <TenantType>Cloud</TenantType>
             <AccountName>OAUTH-ACCOUNT</AccountName>
-            <AccountKey>OAUTH-ACCOUNT-KEY</AccountKey>
+            <AccountKey>Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==</AccountKey>
             <ResourceGroupName>OAUTH-RESOURCE-GROUP-NAME</ResourceGroupName>
             <SubscriptionId>OAUTH-SUBSCRIPTION-ID</SubscriptionId>
 
@@ -74,7 +74,7 @@
             <TenantName>PremiumBlobTenant</TenantName>
             <TenantType>Cloud</TenantType>
             <AccountName>PREMIUM-ACCOUNT</AccountName>
-            <AccountKey>PREMIUM-ACCOUNT-KEY</AccountKey>
+            <AccountKey>Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==</AccountKey>
             <BlobServiceEndpoint>https://localhost:7070</BlobServiceEndpoint>
             <QueueServiceEndpoint>https://localhost:7070</QueueServiceEndpoint>
             <TableServiceEndpoint>https://localhost:7070</TableServiceEndpoint>
@@ -91,7 +91,7 @@
             <TenantName>NamespaceTenant</TenantName>
             <TenantType>Cloud</TenantType>
             <AccountName>NAMESPACE-ACCOUNT</AccountName>
-            <AccountKey>NAMESPACE-ACCOUNT-KEY</AccountKey>
+            <AccountKey>Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==</AccountKey>
 
             <BlobServiceEndpoint>https://localhost:7070</BlobServiceEndpoint>
             <QueueServiceEndpoint>https://localhost:7070</QueueServiceEndpoint>
