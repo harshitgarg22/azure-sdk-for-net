@@ -17,7 +17,7 @@ namespace Azure.Storage.Queues.Test
         private const string Permissions = "raup";
 
         public QueueSasBuilderTests(bool async, QueueClientOptions.ServiceVersion serviceVersion)
-            : base(async, serviceVersion, null /* RecordedTestMode.Record /* to re-record */)
+            : base(async, serviceVersion, RecordedTestMode.Live /* RecordedTestMode.Record /* to re-record */)
         {
         }
 
